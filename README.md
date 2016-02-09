@@ -7,6 +7,8 @@ https://github.com/ifad/data-confirm-modal
 This gem did specific change for semantic-ui.
 I have tested on Rails. If you use without Rails, need to test maybe.
 
+![](https://i.gyazo.com/51bd05305f57af838a795c52b7cd2618.gif)
+
 ## Installation
 
 Add this line to your application's Gemfile:
