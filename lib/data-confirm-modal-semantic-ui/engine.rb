@@ -1,4 +1,4 @@
-module DataConfirmModal
+module DataConfirmModalSemanticUI
   class  Engine < ::Rails::Engine
   end
 end
