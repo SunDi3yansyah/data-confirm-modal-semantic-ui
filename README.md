@@ -11,7 +11,7 @@ I have tested on Rails. If you use without Rails, need to test maybe.
 
 Add this line to your application's Gemfile:
 
-    gem 'data-confirm-modal', github: 'kntmrkm/data-confirm-modal-semantic-ui'
+    gem 'data-confirm-modal-semantic-ui', github: 'kntmrkm/data-confirm-modal-semantic-ui'
 
 Then execute:
 
