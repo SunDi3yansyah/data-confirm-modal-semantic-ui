@@ -44,9 +44,9 @@
     elements: ['a[data-confirm]', 'button[data-confirm]', 'input[type=submit][data-confirm]'],
     focus: 'commit',
     zIndex: 1050,
-    modalClass: 'small',
+    modalClass: 'tiny',
     closable: false,
-    transition: 'fly down',
+    transition: 'scale',
     duration: 400,
     show: true
   };
@@ -139,8 +139,8 @@
         '</div>' +
         '<div class="content"></div>' +
         '<div class="actions">' +
-          '<button class="ui commit button"></button>' +
-          '<button class="ui cancel button"></button>' +
+          '<button class="ui commit button right labeled icon"><i class="checkmark icon"></i></button>' +
+          '<button class="ui cancel button right labeled icon"><i class="remove icon"></i></button>' +
         '</div>'+
 
       '</div>'
