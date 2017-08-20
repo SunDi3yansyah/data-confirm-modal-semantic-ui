@@ -139,8 +139,8 @@
         '</div>' +
         '<div class="content"></div>' +
         '<div class="actions">' +
-          '<button class="ui commit button right labeled icon"><i class="checkmark icon"></i></button>' +
-          '<button class="ui cancel button right labeled icon"><i class="remove icon"></i></button>' +
+          '<button class="ui cancel button right labeled icon"></button>' +
+          '<button class="ui commit button right labeled icon"></button>' +
         '</div>'+
 
       '</div>'
@@ -235,6 +235,8 @@
     });
 
     $('body').append(modal);
+    $('button.ui.cancel.button.right.labeled.icon.negative').append('<i class="remove icon"></i>');
+    $('button.ui.commit.button.right.labeled.icon.positive').append('<i class="checkmark icon"></i>');
 
     modal.spawn = function() {
       return modal.modal({
